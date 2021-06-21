@@ -42,7 +42,7 @@ public class JugadorController : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
 
-        if (other.gameObject.CompareTag("Coleccionable"))
+        if (other.gameObject.CompareTag("Coins"))
         {
 
             other.gameObject.SetActive(false);
